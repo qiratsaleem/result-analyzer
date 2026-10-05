@@ -583,7 +583,7 @@ def make_report_card(student, subjects, total_marks, pass_marks, school_name):
 # SIDEBAR (SETTINGS)
 # ============================================================
 st.sidebar.header("⚙️ Settings")
-school_name = st.sidebar.text_input("School name", "My School")
+school_name = st.sidebar.text_input("School name", "THE INSPIRATION MODEL SCHOOL CAMPUS VIII")
 total_marks = st.sidebar.number_input("Total marks per subject", min_value=1, value=100)
 pass_marks = st.sidebar.number_input("Pass marks per subject", min_value=0, value=33)
 source = st.sidebar.radio("Data source", ["Sample data", "Upload CSV", "Enter manually"])
